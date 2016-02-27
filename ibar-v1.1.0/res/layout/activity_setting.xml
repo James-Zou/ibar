@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slideHolder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/baseColor_blue"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="应 用 设 置"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:text="推送消息设置"
+        android:textSize="22sp" />
+
+    <ImageView style="@style/line_black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="响应模式设置"
+        android:textSize="22sp" />
+
+    <ImageView style="@style/line_black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="安全与隐私"
+        android:textSize="22sp" />
+
+    <ImageView style="@style/line_black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="辅助功能"
+        android:textSize="22sp" />
+
+    <ImageView style="@style/line_black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="关于趣吧"
+        android:textSize="22sp" />
+
+    <ImageView style="@style/line_black" />
+
+</LinearLayout>

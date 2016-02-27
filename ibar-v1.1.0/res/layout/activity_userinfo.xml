@@ -1,0 +1,117 @@
+<!-- 完善资料页面 -->
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/perfect_sv_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 标题 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/baseColor_blue"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/perfect_userinfo"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp" >
+
+            <!-- 上传头像 -->
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/perfect_iv_head"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/head_bg" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#00000000"
+                    android:src="@drawable/head_src" />
+            </RelativeLayout>
+            <!-- 用户名 -->
+
+            <EditText
+                android:id="@+id/perfect_et_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_username"
+                android:ems="10"
+                android:hint="昵称"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 兴趣 -->
+
+        <TextView
+            android:id="@+id/perfect_tv_interest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:paddingTop="20dp"
+            android:text="━━ 我的标签 ━━"
+            android:textColor="@color/baseColor_blue"
+            android:textSize="22sp" />
+
+        <!-- 兴趣选择区 -->
+
+        <com.sloop.widget.TagGroup
+            android:id="@+id/tag_group_large"
+            style="@style/TagGroup.Large"
+            android:layout_margin="15dp"
+            app:isAppendMode="true" />
+
+        <!-- 按钮 -->
+
+        <Button
+            android:id="@+id/perfect_bt_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:text="网友提供的标签"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/perfect_bt_over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:text="完 成"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>

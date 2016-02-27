@@ -1,0 +1,22 @@
+<!-- logo页面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg" >
+
+   
+
+    <!-- 底部信息 版本号 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:text="技术支持：@趣吧项目开发组"
+        android:textColor="@color/baseColor_blue"
+        android:textSize="12sp" />
+
+</RelativeLayout>

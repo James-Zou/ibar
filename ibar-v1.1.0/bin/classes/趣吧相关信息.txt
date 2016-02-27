@@ -1,0 +1,30 @@
+
+命名规范
+	activity名： 功能+Activity 
+		示例： MainActivity  LoginActivity
+
+	布局文件名： activity_功能
+		示例: activity_main  activity_login
+
+	组件名： 所属布局文件名+组件名缩写(两个或者两个以上单词组成的取前两个单词的首字母，单个单词组成的取前两个字母)+组件功能
+		示例：login（登陆界面下的各个组件）
+			login_et_username;	输入用户名用的EditText
+			login_et_password;	输入密码的EditText
+			login_bt_login;		登陆按钮Button
+			login_bt_register;	注册按钮Button
+
+
+配置文件
+	userInfo	保存用户相关信息（用户名 密码 兴趣。。。）
+
+
+/*
+ * mBaiduMap.setMapType(BaiduMap.MAP_TYPE_NORMAL); 地图模式为普通//
+ * mBaiduMap.setMapType(BaiduMap.MAP_TYPE_SATELLITE); 地图模式为卫星//
+ * mBaiduMap.setTrafficEnabled( !mBaiduMap.isTrafficEnabled()); 打开关闭实时交通//
+ * loactionInCenter(mLatitude, mLongtitude); 我的位置 //
+ * mLocationMode = LocationMode.NORMAL; 地图模式-普通 //
+ * mLocationMode = LocationMode.FOLLOWING; 地图模式-跟随//
+ * mLocationMode = LocationMode.COMPASS; 地图模式-罗盘 //
+ * addOverlays(Info.infos); 添加覆盖物//
+ */

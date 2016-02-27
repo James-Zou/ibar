@@ -1,0 +1,139 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:src">#ffffff</item>
+    </style>
+
+    <style name="line_black" parent="@style/line">
+        <item name="android:src">#000000</item>
+    </style>
+
+    <style name="menuButton">
+        <item name="android:onClick">click</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="menuItem">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="menuItemIcon">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="menuItemText">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textColor">@color/baseColor_skyblue</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="menuItemMore">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/menu_more</item>
+    </style>
+
+    <style name="TagGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="isAppendMode">false</item>
+        <item name="inputTagHint">@string/add_tags</item>
+        <item name="brightColor">#49C120</item>
+        <item name="dimColor">#AAAAAA</item>
+        <item name="borderStrokeWidth">0.5dp</item>
+        <item name="textSize">13sp</item>
+        <item name="horizontalSpacing">8dp</item>
+        <item name="verticalSpacing">4dp</item>
+        <item name="horizontalPadding">12dp</item>
+        <item name="verticalPadding">3dp</item>
+    </style>
+
+    <style name="TagGroup.Small" parent="TagGroup">
+        <item name="textSize">10sp</item>
+        <item name="horizontalSpacing">6dp</item>
+        <item name="verticalSpacing">3dp</item>
+        <item name="horizontalPadding">8dp</item>
+        <item name="verticalPadding">2dp</item>
+    </style>
+
+    <style name="TagGroup.Large" parent="TagGroup">
+        <item name="borderStrokeWidth">0.7dp</item>
+        <item name="textSize">15sp</item>
+        <item name="horizontalSpacing">9dp</item>
+        <item name="verticalSpacing">5dp</item>
+        <item name="horizontalPadding">14dp</item>
+        <item name="verticalPadding">4dp</item>
+    </style>
+
+    <style name="TagGroup.Beauty_Red" parent="TagGroup">
+        <item name="brightColor">#FF3D7F</item>
+    </style>
+
+    <style name="TagGroup.Small.Beauty_Red" parent="TagGroup.Small">
+        <item name="brightColor">#FF3D7F</item>
+    </style>
+
+    <style name="TagGroup.Large.Beauty_Red" parent="TagGroup.Large">
+        <item name="brightColor">#FF3D7F</item>
+    </style>
+
+    <style name="TagGroup.Holo_Dark" parent="TagGroup">
+        <item name="brightColor">#303030</item>
+    </style>
+
+    <style name="TagGroup.Small.Holo_Dark" parent="TagGroup.Small">
+        <item name="brightColor">#303030</item>
+    </style>
+
+    <style name="TagGroup.Large.Holo_Dark" parent="TagGroup.Large">
+        <item name="brightColor">#303030</item>
+    </style>
+
+    <style name="TagGroup.Light_Blue" parent="TagGroup">
+        <item name="brightColor">#33B5E5</item>
+    </style>
+
+    <style name="TagGroup.Small.Light_Blue" parent="TagGroup.Small">
+        <item name="brightColor">#33B5E5</item>
+    </style>
+
+    <style name="TagGroup.Large.Light_Blue" parent="TagGroup.Large">
+        <item name="brightColor">#33B5E5</item>
+    </style>
+
+    <style name="TagGroup.Indigo" parent="TagGroup">
+        <item name="brightColor">#3F51B5</item>
+    </style>
+
+    <style name="TagGroup.Small.Indigo" parent="TagGroup.Small">
+        <item name="brightColor">#3F51B5</item>
+    </style>
+
+    <style name="TagGroup.Large.Indigo" parent="TagGroup.Large">
+        <item name="brightColor">#3F51B5</item>
+    </style>
+
+</resources>

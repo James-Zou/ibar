@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">趣吧</string>
+    <string name="version">\@version:1.0</string>
+    <string name="splash_appname">趣\u0020\u0020\u0020吧</string>
+    <string name="logo_regist">注\u0020\u0020\u0020册</string>
+    <string name="action_settings">设置</string>
+    <string name="宗旨1">让生活</string>
+    <string name="宗旨2">更有趣</string>
+    <string name="welcom">" 欢迎加入趣吧，成为趣吧的一员"</string>
+    <string name="regist">注册</string>
+    <string name="username_hint">用户名/手机号</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="rePassword">再次输入密码</string>
+    <string name="phoneNumber">手机号</string>
+    <string name="passwordTip">" 密码为6~16位数字或字母"</string>
+    <string name="login">登陆</string>
+    <string name="loginTip">没有账号？点这里注册</string>
+    <string name="perfect_userinfo">完 善 资 料</string>
+    <string name="email">邮箱</string>
+
+    <!-- 标签 -->
+    <string name="title_activity_secondary">添加标签</string>
+    <string name="add_tags">添加标签</string>
+    <string name="tags_default">标签(默认)</string>
+    <string name="tags_small">标签(小号)</string>
+    <string name="tags_large">标签(大号)</string>
+</resources>

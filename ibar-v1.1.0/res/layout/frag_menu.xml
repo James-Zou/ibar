@@ -1,0 +1,126 @@
+<!-- 完善资料页面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/leftmenu_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 头像 -->
+
+        <com.sloop.widget.CircleImageView
+            android:id="@+id/menu_ci_head"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/head_bg"
+            app:border_color="@color/baseColor_skyblue"
+            app:border_width="5dp" />
+
+        <TextView
+            android:id="@+id/menu_tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:text="昵称"
+            android:textColor="#ffffff"
+            android:textSize="26sp" />
+
+        <RelativeLayout
+            android:id="@+id/menu_userifo"
+            style="@style/menuItem"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/item_userinfo"
+                style="@style/menuItemIcon"
+                android:src="@drawable/menu_userinfo" />
+
+            <TextView
+                style="@style/menuItemText"
+                android:layout_toRightOf="@id/item_userinfo"
+                android:text="个人信息" />
+
+            <ImageView style="@style/menuItemMore" />
+        </RelativeLayout>
+
+        <ImageView style="@style/line" />
+
+        <RelativeLayout
+            android:id="@+id/menu_setting"
+            style="@style/menuItem" >
+
+            <ImageView
+                android:id="@+id/item_setting"
+                style="@style/menuItemIcon"
+                android:src="@drawable/menu_setting" />
+
+            <TextView
+                style="@style/menuItemText"
+                android:layout_toRightOf="@id/item_setting"
+                android:text="应用设置" />
+
+            <ImageView style="@style/menuItemMore" />
+        </RelativeLayout>
+
+        <ImageView style="@style/line" />
+
+        <RelativeLayout
+            android:id="@+id/menu_feedback"
+            style="@style/menuItem" >
+
+            <ImageView
+                android:id="@+id/item_problem"
+                style="@style/menuItemIcon"
+                android:src="@drawable/menu_problem" />
+
+            <TextView
+                style="@style/menuItemText"
+                android:layout_toRightOf="@id/item_problem"
+                android:text="问题反馈" />
+
+            <ImageView style="@style/menuItemMore" />
+        </RelativeLayout>
+
+        <ImageView style="@style/line" />
+
+        <RelativeLayout
+            android:id="@+id/menu_about"
+            style="@style/menuItem" >
+
+            <ImageView
+                android:id="@+id/item_about"
+                style="@style/menuItemIcon"
+                android:src="@drawable/menu_about" />
+
+            <TextView
+                style="@style/menuItemText"
+                android:layout_toRightOf="@id/item_about"
+                android:text="关于" />
+
+            <ImageView style="@style/menuItemMore" />
+        </RelativeLayout>
+
+        <ImageView style="@style/line" />
+
+        <Button
+            android:id="@+id/menu_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="退 出 登 录"
+            android:textColor="#ff0000" />
+    </LinearLayout>
+
+</RelativeLayout>

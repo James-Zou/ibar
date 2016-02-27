@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="base_background">#FFFFFF</color>
+    <color name="baseColor_blue">#0093FF</color>
+    <color name="baseColor_wathet">#800093FF</color>
+    <color name="baseColor_skyblue">#cce9ff</color>
+    <color name="baseColor_gray">#eeeeee</color>
+    <color name="baseColor_black">#222222</color>
+    
+
+</resources>

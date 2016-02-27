@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" classpath="libs/BmobSDK_V3.3.3_0211.jar;../appcompat_v7/bin/appcompat_v7.jar;../appcompat_v7/libs/android-support-v4.jar;../appcompat_v7/libs/android-support-v7-appcompat.jar;libs/universal-image-loader-1.9.2_sources.jar;libs/BmobIM_V1.1.6beta_0204.jar" packagenames="de.hdodenhof.circleimageview,com.sloop.treeview.utils.adapter,com.sloop.ibar.bean,me.gujun.android.taggroup,com.agimind.widget,com.sloop.ibar.adapter,com.sloop.treeview.utils,com.sloop.ibar.ui.fragment,com.sloop.ibar.ui,android.support.v7.appcompat,com.sloop.treeview.utils.annotation,com.sloop.ibar.util" sourcefiles="gen/com/sloop/ibar/R.java,gen/com/sloop/ibar/Manifest.java,gen/com/sloop/ibar/BuildConfig.java" sourcepath="gen;src">
+            <doclet name="" path=""/>
+        </javadoc>
+    </target>
+</project>
