@@ -1,23 +1,19 @@
 # ibar
-一、项目目标
+One, the project objectives
 
-趣吧是一款集商业、娱乐、社交于一体的创新型手机应用软件，基于区域化限制性特色，能够即时性的满足用户间供需关系的移动平台。致力于使用户通过手机获得及时有用的消费和生活服务信息，例如了解企业招聘信息或商家奖品和积分回报等实惠信息。
-趣吧后期更加致力于通过区域化定位技术，将实际地理位置与虚拟信息结合起来建成养成系统、虚拟商街等，陶冶情操，培养技能的移动平台。
-
-
-二、项目思路
-
-为了实现项目目标，趣吧运用了定位服务，利用定位，划分地址围栏，获取用户附近区域内的需求信息，以数据地图和消息推送的方式展现给用户。同时，用户可以根据自身需求，过滤掉无用信息。作为企业或商家用户通过本应用可以发布招聘、优惠等商业信息并获取相应的需求信息。并且，企业或商家可以通过“挖宝”等趣味性活动发布需求；作为普通用户通过本应用可以获取到满足自身需求的企业或个人信息。
+Boring bar is a collection of commercial, entertainment, social networking, which integrates innovative mobile applications, based on the characteristics of regional restriction, can meet the users of immediacy of supply and demand relationship between mobile platforms. Dedicated to the user via phone useful consumption and life service information in time, such as understanding enterprise recruitment information or merchants prizes and integral return information such as material benefit. Interesting late more committed to through the regional location technology, combine actual geographical position and the virtual information built form system and virtual galleria, edify sentiment, cultivate skills of mobile platforms.
 
 
-三、项目做法
+Second, the project ideas
 
-项目使用安卓app作为功能载体，使用mvc设计模式，java语言进行开发。项目采用Bmob作为自己的云端服务器和数据库，引进了百度地图的定位功能和地图功能为用户提供可视化的界面。应用在使用时会将服务器内容缓存一部分在本地上，定时进行更新数据，在进行云端存储是会对用户信息进行加密处理。
-
-
+In order to achieve the project goals, boring, please use the location services, use of positioning, divided into address fence, get the user area near the demand information, show in the form of data map and pushed to the user. At the same time, the user can according to their own needs, filter out the useless information. As an enterprise or business users through the application can release the business information such as recruitment, preferential information and obtain the corresponding demand. And, enterprise or business can be released through fun activities such as "Indian arrowheads" demand; As a regular user through the application can get to meet the demand of its business or personal information.
 
 
+Third, project practice
 
-四、项目亮点
+Projects using android app as a function of the carrier, using the MVC design pattern, the Java language development. Project using Bmob as their own cloud server and database, introduced the baidu map location and map functions for users with visual interface. Application server when they use content caching part on the local time to update the data, information to the user is stored in the cloud encryption processing.
 
- 趣吧项目的亮点在于，它是集商业、娱乐、社交于一体的创新型手机软件，主打区域化定位即时性满足供需交换。它同样也是可扩展型的，我们开发小组提出了“虚拟化数据+实体地理位置”项目模式，到后期会添加娱乐性项目活动，例如虚拟养成系统可以培养用户情操，虚拟商界可以锻炼用户商业管理能力等等。还有，趣吧通过扫一扫，获取对方名片，还可以制作成联系人，减少纸质名片的产生，从而减少污染。
+
+Four, project window
+
+Interesting projects bright spot is that it is a concentration of business, entertainment, social networking, which integrates innovative mobile phone software, main regional positioning real-time meet the exchange between supply and demand. It is also extensible model, our development team puts forward "virtualization data + entity location" project mode, to late will add recreational activities, such as virtual form system can cultivate sentiments, virtual business can exercise the user business management ability and so on. And boring through scan, and obtain a business card can also be made into contact, reduce the production of paper CARDS, thus reducing pollution.
